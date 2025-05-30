@@ -4,7 +4,7 @@
     --primary-blue-dark: #1e5eff;
     --accent-orange: #ff8c42;
     --accent-orange-dark: #e37222;
-    --background: #1f2532; /* Mid-dark background */
+    --background: #e8e8e8; /* Mid-dark background */
     --background-light: #2b313f; /* Slightly lighter section backgrounds */
     --text-light: #f0f4f8;
     --text-muted: #9fa6b2;
@@ -59,6 +59,7 @@
   
   .navbar .container {
     display: flex;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -69,6 +70,7 @@
   .logo {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
   }
   
   .logo a {
